@@ -6,6 +6,14 @@ a:visited {
   color: #4A00E0;
 }
 
+nav a {
+  color: #FFFFFF;
+}
+
+nav a:visited {
+  color: #FFFFFF;
+}
+
 h1, h2, h3 {
   font-family: 'Space Mono', monospace;
   color: #4A00E0;
@@ -15,8 +23,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid #141D3E;
   padding: 10px 0;
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 header img {
@@ -42,10 +51,8 @@ footer i {
 
 body {
   font-family: 'Quicksand', sans-serif;
-  display: flex;
-  flex-flow: column wrap;
-  max-width: 940px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 article {
@@ -60,6 +67,10 @@ article p {
   font-size: 16px;
   line-height: 26px;
   text-align: justify;
+}
+
+.first {
+  margin-bottom: 10px;
 }
 
 .nav {
@@ -84,6 +95,11 @@ article p {
 
 .avatar {
   max-width: 175px;
+}
+
+.banner {
+  width: 100%;
+  background-color: #141D3E;
 }
 
 #mainBody {

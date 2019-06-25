@@ -30,15 +30,17 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css">
   </head>
   <body>
-    <header>
-      <img src="<?php echo base_url(); ?>assets/img/img_pozaicer_logo.png" alt="Samuel Pozaicer" />
-      <nav>
-        <ol class="nav">
-          <li><i class="far fa-file-pdf"></i><a href="#">CV</a></li>
-          <li><i class="fab fa-github"></i><a href="https://github.com/Pz3r" target="_blank">GitHub</a></li>
-          <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/samuel-pozaicer-3a718129/" target="_blank">LinkedIn</a></li>
-          <li><i class="far fa-envelope"></i><a href="mailto:sampoz@pm.me">Contact me!</a></li>
-        </ol>
-      </nav>
-    </header>
+    <div class="banner">
+      <header>
+        <img src="<?php echo base_url(); ?>assets/img/img_pozaicer_logo_blanco.png" alt="Samuel Pozaicer" />
+        <nav>
+          <ol class="nav">
+            <li><a href="<?php echo base_url(); ?>assets/docs/Samuel_Pozaicer_CV_EN_2019.pdf" target="_blank">CV</a></li>
+            <li><a href="https://github.com/Pz3r" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/samuel-pozaicer-3a718129/" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:sampoz@pm.me">Contact me!</a></li>
+          </ol>
+        </nav>
+      </header>
+    </div>
     <section id="mainBody">
